@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-C3FH5QC9ZM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-C3FH5QC9ZM");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photo</title>
+    <meta name="description" content="photo of a Croissant" />
+    <title>Photo- Croissant.com</title>
     <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
@@ -12,8 +27,8 @@
       src="https://optimistic-morse-46a9fc.netlify.app/images/croissant.jpg"
       alt="croissant"
     />
-    <a href="/">Homepage</a>
-    <a href="/contact.html">Contact</a>
-    <a href="/photo.html">Photo</a>
+    <a title="Croissant.com Homepage" href="/">Homepage</a>
+    <a title="Croissant.com contact page" href="/contact.html">Contact</a>
+    <a title="Croissant.com photo page" href="/photo.html">Photo</a>
   </body>
 </html>
